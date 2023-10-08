@@ -10,12 +10,7 @@
     "require": {
         "php": ">=7.2",
         "psr/container": "^1.0",
-        "hyperf/session": "~2.0.0"
-    },
-    "require-dev": {
-        "hyperf/di": "~1.1.0",
-        "phpunit/phpunit": "^7.0.0",
-        "friendsofphp/php-cs-fixer": "^2.9"
+        "hyperf/session": "^2.0.0|^3.0.0"
     },
     "autoload": {
         "psr-4": {
