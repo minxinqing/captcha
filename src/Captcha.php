@@ -10,7 +10,7 @@ declare(strict_types=1);
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
 
-namespace Lizhaoyang\Captcha;
+namespace Minxinqing\Captcha;
 
 
 use Lizhaoyang\Captcha\Handler\CaptchaHandler;
@@ -45,13 +45,13 @@ class Captcha implements CaptchaInterface
 
     public function check(string $code): bool
     {
-       return $this->handler->check($code);
+        return $this->handler->check($code);
     }
 
     public function setUseCurve(bool $flag = true): CaptchaInterface
     {
-       $this->config->set('captcha.useCurve', $flag);
-       return $this;
+        $this->config->set('captcha.useCurve', $flag);
+        return $this;
     }
 
     public function setUseNoise(bool $flag = true): CaptchaInterface

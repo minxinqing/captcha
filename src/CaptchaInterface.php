@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Lizhaoyang\Captcha;
+namespace Minxinqing\Captcha;
 
 
 use Psr\Http\Message\ResponseInterface;

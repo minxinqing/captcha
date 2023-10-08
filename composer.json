@@ -1,5 +1,5 @@
 {
-    "name": "lizhaoyang/captcha",
+    "name": "minxinqing/captcha",
     "description": "A captcha componet for hyperf .",
     "license": "MIT",
     "keywords": [
@@ -8,9 +8,9 @@
         "captcha"
     ],
     "require": {
-        "php": ">=7.2",
+        "php": ">=8.0",
         "psr/container": "^1.0|^2.0",
-        "hyperf/session": "^2.0.0|^3.0.0"
+        "hyperf/session": "^3.0.0"
     },
     "autoload": {
         "psr-4": {

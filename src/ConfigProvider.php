@@ -10,7 +10,7 @@ declare(strict_types=1);
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
 
-namespace Lizhaoyang\Captcha;
+namespace Minxinqing\Captcha;
 
 class ConfigProvider
 {
@@ -20,8 +20,7 @@ class ConfigProvider
             'dependencies' => [
                 CaptchaInterface::class => CaptchaFactory::class
             ],
-            'annotations' => [
-            ],
+            'annotations' => [],
             'publish' => [
                 [
                     'id' => 'config',
